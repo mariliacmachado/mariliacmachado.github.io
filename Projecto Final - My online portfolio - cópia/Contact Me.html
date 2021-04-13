@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <title> Web Design Final Project - Home </title>
+    <html lang="pt" dir="ltr">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="StyleSheetProjecto.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Open+Sans:wght@300&family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<header>
+<nav>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">About Me
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="AboutMe.html">Summary</a>
+        <a href="Qualifications.html">Qualifications</a>
+        <a href="Experience.html">Work Experience</a>
+      </div>
+    </div>
+<a href="MyWork.html">Portfolio </a>
+    <a href="Contact Me.html">Contact Me </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+</div>
+</nav>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</header>
+
+<body>
+  <div class="container">
+    <h3>Email me: </h3> <p> <a href="mailto:mariliacmachado@gmail.com">mariliacmachado@gmail.com</a></p>
+    <h3> Call me </h3> <p> +351 919573962 </p>
+    <h3> LinkedIn </h3> <a href="https://www.linkedin.com/in/mariliacmachado">@mariliacmachado</a> </p>
+</div>
+
+  </body>
+
+  <footer>
+    <div class="footer">
+  <p> Made by Marília Machado | Web Design Module - Digital Content Creation Course | World Academy 2021-2021  </p>
+    </footer>
+  </html>
